@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "@esy-ocaml/reason": ">=3.4.0",
-    "@brisk/macos": "*",
-    "brisk-reconciler": "*"
+    "@brisk/macos": "*"
   },
   "devDependencies": {
     "@opam/merlin": "^3.2.2",
@@ -22,7 +21,6 @@
   },
   "resolutions": {
     "@brisk/core": "link-dev:./core",
-    "@brisk/macos": "link-dev:./renderer-macos",
-    "brisk-reconciler": "briskml/brisk-reconciler#be325c5"
+    "@brisk/macos": "link-dev:./renderer-macos"
   }
 }

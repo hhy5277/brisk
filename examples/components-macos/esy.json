@@ -25,7 +25,6 @@
   },
   "resolutions": {
     "@brisk/core": "link:../../core",
-    "@brisk/macos": "link:../../renderer-macos",
-    "brisk-reconciler": "briskml/brisk-reconciler#be325c5"
+    "@brisk/macos": "link:../../renderer-macos"
   }
 }
